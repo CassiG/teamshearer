@@ -1,0 +1,2 @@
+# Set PHP handler to application/x-httpd-php54 on Tue Jan 12 07:53:35 MST 2016.
+AddHandler application/x-httpd-php54 .php
