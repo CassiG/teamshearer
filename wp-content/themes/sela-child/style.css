@@ -12,3 +12,21 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: sela
 Tags: gray, pink, white, light, two-columns, right-sidebar, custom-colors, responsive-layout, custom-background, custom-menu, featured-images, full-width-template, microformats, rtl-language-support, sticky-post, translation-ready
 */
+
+/*--------------------------------------------------------------
+Main Styles
+--------------------------------------------------------------*/
+.site-branding {
+  padding: 1em 0 5px;
+}
+.main-navigation {
+  background-color: #1c6a87;
+}
+
+.main-navigation li.current_page_item > a, .main-navigation li.current-menu-item > a, .main-navigation li.current_page_ancestor > a, .main-navigation li.current-menu-ancestor > a {
+  color: #71DEE8;
+}
+
+.main-navigation a:hover, .main-navigation ul > :hover > a, .main-navigation ul > .focus > a {
+  color: #71DEE8;
+}
