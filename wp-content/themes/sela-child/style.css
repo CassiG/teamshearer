@@ -16,10 +16,22 @@ Tags: gray, pink, white, light, two-columns, right-sidebar, custom-colors, respo
 /*--------------------------------------------------------------
 Main Styles
 --------------------------------------------------------------*/
+body {
+    background: #fff;
+}
+
 .site-branding {
-  padding: 1em 0 5px;
+  padding: 3em 0 0;
+}
+
+.site-branding img {
+    width: 150px;
 }
 .main-navigation {
+  background-color: #1c6a87;
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"], #infinite-handle span {
   background-color: #1c6a87;
 }
 
@@ -30,3 +42,53 @@ Main Styles
 .main-navigation a:hover, .main-navigation ul > :hover > a, .main-navigation ul > .focus > a {
   color: #71DEE8;
 }
+
+.front-page-content-area .with-featured-image {
+  bottom: 130px;
+    height: 30%;
+        padding: 0.5em;
+}
+
+#name {
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+}
+
+.jetpack-testimonial {
+  width: 100%;
+}
+
+.front-widget-area, .front-testimonials {
+  padding: 0em 55px;
+}
+
+@media screen and (min-width: 600px) {}
+
+@media screen and (min-width: 768px) {
+  .site-branding {
+    padding: 1em 5% 5px;
+    float: left;
+}
+
+header#masthead {
+    position: relative;
+}
+
+.main-navigation {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0 0 2%;
+    border-bottom: #fff;
+    background-color: #fff;
+  }
+
+.main-navigation a {
+  color: #1c6a87;
+}
+}
+
+@media screen and (min-width: 850px) {}
+
+@media screen and (min-width: 998px) {}
+
+@media screen and (min-width: 1180px) {}
