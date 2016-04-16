@@ -65,7 +65,7 @@ button, input[type="button"], input[type="reset"], input[type="submit"], #infini
 
 @media screen and (min-width: 768px) {
   .site-branding {
-    padding: 1em 5% 5px;
+    padding: 1em 0 5px;
     float: left;
 }
 
@@ -80,6 +80,8 @@ header#masthead {
     margin: 0 0 2%;
     border-bottom: #fff;
     background-color: #fff;
+    padding: 0.25em 0;
+
   }
 
 .main-navigation a {
